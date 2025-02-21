@@ -1,0 +1,117 @@
+2025-02-21 11:11:39,032 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:11:39,032 - INFO - Configuration file loaded successfully.
+2025-02-21 11:11:39,190 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:11:39,190 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:11:39,193 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:11:39,193 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:11:39,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.60.36.23:5000
+2025-02-21 11:11:39,213 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 11:12:50,409 - INFO - Received request: {'prompt': 'Generate API endpoints for Stress Testing include module name, API endpoints and input_params'}
+2025-02-21 11:13:58,798 - INFO - Generated response: Generate API endpoints for Stress Testing include module name, API endpoints and input_params {"name": "stress test module", "api_endpoints": [{"method": "POST", "url": "/api/stress/test/create", "description": "Create a new stress test module.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"stress_test_name": {"type": "string", "required": true}, "test_type": {"type": "string", "required": true}, "start_date": {"type": "string", "required": true}, "end_date": {"type": "string", "required": true}, "stress_test_params": {"type": "array", "required": true}}}, {"method": "GET", "url": "/api/stress/test/{test_id}", "description": "Retrieve details of a specific stress test module.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}}}, {"method": "PUT", "url": "/api/stress/test/update/{test_id}", "description": "Update a stress test module.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}}}, {"method": "DELETE", "url": "/api/stress/test/delete/{test_id}", "description": "Delete a stress test module.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"stress_test_id": {"type": "string", "required": true}, "test_type": {"type": "string", "required": false}, "start_date": {"type": "string", "required": false}, "end_date": {"type": "string", "required": false}, "stress_test_params": {"type": "array", "required": false}}}, {"method": "POST", "url": "/api/stress/test/start", "description": "Start a stress test module.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"start_date": {"type": "string", "required": true}, "end_date": {"type": "string", "required": false}, "stress_test_params": {"type": "array", "required": false}}}, {"method": "GET", "url": "/api/stress/test/list", "description": "Retrieve a list of stress tests and parameters.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"stress_test_list": {"type": "array", "required": true}}}, {"method": "POST", "url": "/api/stress/test/test-status", "description": "Check the stress test status and performance parameters.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"stress_test_status": {"type": "string", "required": true}}}]}
+2025-02-21 11:13:58,799 - INFO - 127.0.0.1 - - [21/Feb/2025 11:13:58] "POST /generate HTTP/1.1" 200 -
+2025-02-21 11:24:10,644 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:24:10,645 - INFO - Configuration file loaded successfully.
+2025-02-21 11:24:10,782 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:24:10,783 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:24:10,786 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:26:54,455 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:26:54,455 - INFO - Configuration file loaded successfully.
+2025-02-21 11:26:54,594 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:26:54,594 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:26:54,594 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:26:54,594 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:26:54,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.60.36.23:5000
+2025-02-21 11:26:54,628 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 11:31:58,665 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:31:58,665 - INFO - Configuration file loaded successfully.
+2025-02-21 11:31:58,810 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:31:58,810 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:31:58,812 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:31:58,812 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:31:58,830 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.60.36.23:5000
+2025-02-21 11:31:58,830 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 11:31:58,833 - INFO -  * Restarting with stat
+2025-02-21 11:32:02,381 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:32:02,382 - INFO - Configuration file loaded successfully.
+2025-02-21 11:32:02,510 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:32:02,510 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:32:02,512 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:32:02,512 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:32:36,861 - INFO - Received request: {'prompt': 'Generate API endpoints for Stress Testing include module name, API endpoints and input_params'}
+2025-02-21 11:33:47,500 - INFO - Generated response: Generate API endpoints for Stress Testing include module name, API endpoints and input_params {"name": "stress test", "api_endpoints": [{"method": "POST", "url": "/api/stress/test/create", "description": "Create a new stress test for a specific user.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"user_id": {"type": "string", "required": true}, "test_name": {"type": "string", "required": true}, "start_date": {"type": "string", "required": true}, "end_date": {"type": "string", "required": true}, "input_params": {"user_id": {"type": "string", "required": true}}}, {"method": "GET", "url": "/api/stress/test/{user_id}", "description": "Retrieve details of a specific user by their ID.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"user_id": {"type": "string", "required": true}}}, {"method": "PUT", "url": "/api/stress/test/update/{user_id}", "description": "Update the details of a specific stress test.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"user_id": {"type": "string", "required": true}, "test_name": {"type": "string", "required": true}, "start_date": {"type": "string", "required": false}, "end_date": {"type": "string", "required": false}}}, {"method": "DELETE", "url": "/api/stress/test/delete/{user_id}", "description": "Delete a specific stress test from the system.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"user_id": {"type": "string", "required": true}, "test_name": {"type": "string", "required": false}, "start_date": {"type": "string", "required": false}, "end_date": {"type": "string", "required": false}}}, {"method": "GET", "url": "/api/stress/test/status/{stress_test_id}", "description": "Retrieve the status of a specific stress test.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"stress_test_id": {"type": "string", "required": true}}}, {"method": "POST", "url": "/api/stress/test/create", "description": "Create a new stress test for a specific user.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"user_id": {"type": "string", "required": true}, "test_name": {"type": "string", "required": true}, "start_date": {"type": "string", "required": false}, "end_date": {"type": "string", "required": false}}}]}
+2025-02-21 11:33:47,501 - INFO - 127.0.0.1 - - [21/Feb/2025 11:33:47] "POST /generate HTTP/1.1" 200 -
+2025-02-21 11:36:05,118 - INFO -  * Detected change in 'D:\\DS\\APIFLOW\\generation\\generator.py', reloading
+2025-02-21 11:36:05,630 - INFO -  * Restarting with stat
+2025-02-21 11:36:09,328 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:36:09,328 - INFO - Configuration file loaded successfully.
+2025-02-21 11:36:09,481 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:36:09,481 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:36:09,483 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:36:09,484 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:36:39,506 - INFO -  * Detected change in 'D:\\DS\\APIFLOW\\generation\\generator.py', reloading
+2025-02-21 11:36:39,916 - INFO -  * Restarting with stat
+2025-02-21 11:36:43,609 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:36:43,610 - INFO - Configuration file loaded successfully.
+2025-02-21 11:36:43,763 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:36:43,763 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:36:43,766 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:36:43,766 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:37:08,307 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:37:08,307 - INFO - Configuration file loaded successfully.
+2025-02-21 11:37:08,453 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:37:08,453 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:37:08,455 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:37:08,455 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:37:08,472 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.60.36.23:5000
+2025-02-21 11:37:08,473 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-21 11:37:08,474 - INFO -  * Restarting with stat
+2025-02-21 11:37:12,104 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:37:12,104 - INFO - Configuration file loaded successfully.
+2025-02-21 11:37:12,285 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:37:12,285 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:37:12,286 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:37:12,287 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:37:58,042 - INFO -  * Detected change in 'D:\\DS\\APIFLOW\\generation\\generator.py', reloading
+2025-02-21 11:37:58,458 - INFO -  * Restarting with stat
+2025-02-21 11:38:02,183 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:38:02,183 - INFO - Configuration file loaded successfully.
+2025-02-21 11:38:02,316 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:38:02,316 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:38:02,317 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:38:02,317 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:38:26,514 - INFO -  * Detected change in 'D:\\DS\\APIFLOW\\generation\\generator.py', reloading
+2025-02-21 11:38:26,922 - INFO -  * Restarting with stat
+2025-02-21 11:38:30,627 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:38:30,627 - INFO - Configuration file loaded successfully.
+2025-02-21 11:38:30,767 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:38:30,768 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:38:30,769 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:38:30,769 - INFO - Starting Flask server on 0.0.0.0:5000
+2025-02-21 11:48:59,170 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:48:59,172 - INFO - Configuration file loaded successfully.
+2025-02-21 11:48:59,673 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:48:59,673 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:48:59,674 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:50:48,149 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 11:50:48,149 - INFO - Configuration file loaded successfully.
+2025-02-21 11:50:48,562 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 11:50:48,562 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 11:50:48,568 - INFO - Model and tokenizer loaded successfully.
+2025-02-21 11:52:32,239 - INFO - Generated response: Generate API endpoints for Stress Testing include module name, API endpoints and input_params {"name": "stress test", "api_endpoints": [{"method": "POST", "url": "/api/stress/test/create", "description": "Create a new stress test.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"test_name": {"type": "string", "required": true}, "test_description": {"type": "string", "required": true}, "start_time": {"type": "string", "required": true}, "end_time": {"type": "string", "required": true}, "severity": {"type": "string", "required": true}, "test_duration": {"type": "string", "required": true}}}, {"method": "GET", "url": "/api/stress/test/{test_id}", "description": "Retrieve the details of a specific stress test.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}}}, {"method": "PUT", "url": "/api/stress/test/update/{test_id}", "description": "Update the details of a stress test.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}}}, {"method": "DELETE", "url": "/api/stress/test/delete/{test_id}", "description": "Delete a stress test.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"test_id": {"type": "string", "required": true}, "test_description": {"type": "string", "required": false}, "start_time": {"type": "string", "required": false}, "end_time": {"type": "string", "required": false}}}, {"method": "GET", "url": "/api/stress/test/{test_id}/history", "description": "Retrieve a list of all stress tests performed.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}}}, {"method": "POST", "url": "/api/stress/test/create", "description": "Create a new stress test.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"test_id": {"type": "string", "required": true}, "start_time": {"type": "string", "required": false}, "end_time": {"type": "string", "required": false}, "severity": {"type": "string", "required": false}, "test_duration": {"type": "string", "required": false}}}, {"method": "GET", "url": "/api/stress/test/{test_id}/report", "description": "Retrieve the stress test results for a specific test.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}}}, {"method": "GET", "url": "/api/stress/test/{test_id}/status", "description": "Retrieve the stress test status for a specific test.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}}}, {"method": "POST", "url": "/api/stress/test/{test_id}/submit", "description": "Submit a stress test request.", "headers": {"Authorization": "Bearer <token>", "Content-Type": "application/json"}, "input_params": {"test_id": {"type": "string", "required": true}, "request_status": {"type": "string", "required": true}, "submit": {"type": "string", "required": true}}}]}]}]} {"method": "GET", "url": "/api/stress/test/{test_id}/status", "description": "Retrieve the stress test status for a specific test.", "headers": {"Authorization": "Bearer <token>"}, "input_params": {"test_id": {"type": "string", "required": true}, "status": {"type": "string", "required": true}}}]}]} {"method
+2025-02-21 12:13:04,797 - INFO - Configuration loaded successfully from config.json.
+2025-02-21 12:13:04,797 - INFO - Configuration file loaded successfully.
+2025-02-21 12:13:05,476 - INFO - Model and tokenizer loaded successfully from ./gpt2_finetuned.
+2025-02-21 12:13:05,476 - INFO - CUDA detected: False, using device: cpu
+2025-02-21 12:13:05,478 - INFO - Model and tokenizer loaded successfully.
