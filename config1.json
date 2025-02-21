@@ -1,0 +1,16 @@
+{
+  "model_path": "./gpt2_finetuned",
+  "model_checkpoint": "gpt2",
+  "output_dir": "./gpt2_finetuned",
+  "train_file": "api_dataset_seven_endpoints_full.jsonl",
+  "batch_size": 2,
+  "num_train_epochs": 10,
+  "learning_rate": 5e-6,
+  "max_length": 1024,
+  "temperature": 0.95,
+  "top_k": 30,
+  "top_p": 0.7,
+  "repetition_penalty": 1,
+  "host": "0.0.0.0",
+  "port": 5000
+}
